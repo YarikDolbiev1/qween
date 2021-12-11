@@ -27,7 +27,7 @@ function play(values) {
     }
     alert(card);
     if(card == "Q"){
-        if(turn %2 =="Q"){
+        if(turn %2 !="Q"){
             alert("you lose");
             break;
         }else{
